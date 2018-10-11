@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerApis.Apis", "TallerAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerApis.Xamarin.Android", "TallerApis.Xamarin\TallerApis.Xamarin.Android\TallerApis.Xamarin.Android.csproj", "{8B857BAB-92B3-419B-9856-DC5E12E0C1A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerApis.Xamarin", "TallerApis.Xamarin\TallerApis.Xamarin\TallerApis.Xamarin.csproj", "{194DB954-77A8-4D3F-81CA-3B5609E11289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TallerApis.Xamarin", "TallerApis.Xamarin\TallerApis.Xamarin\TallerApis.Xamarin.csproj", "{194DB954-77A8-4D3F-81CA-3B5609E11289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
