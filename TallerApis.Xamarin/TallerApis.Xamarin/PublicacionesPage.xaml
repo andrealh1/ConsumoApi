@@ -11,18 +11,27 @@
             <ListView x:Name="listPublicaciones">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding Id}"/>
-                            <Label Text="{Binding Usuario}"/>
-                            <Label Text="{Binding Descripcion}"/>
-                            <Label Text="{Binding FechaPublicacion}"/>
-                            <Label Text="{Binding MeGusta}"/>
-                            <Label Text="{Binding MeDisgusta}"/>
-                            <Label Text="{Binding VecesCompartido}"/>
-                            <Label Text="{Binding EsPrivada}"/>
-                         </StackLayout>
+                        <ViewCell>
+                            <ViewCell.View>
+                            <StackLayout>
+                                <Label 
+                                    Text="{Binding Usuario}">
+                                </Label>
+                                <Label 
+                                    Text="{Binding Descripcion}">
+                                </Label>
+                                                               
+                                <Label 
+                                    Text="{Binding MeGusta}">
+                                </Label>
+                                </StackLayout>
+
+                            </ViewCell.View>
+                        </ViewCell>
 
                     </DataTemplate>
+
+               
 
                 </ListView.ItemTemplate>
 
