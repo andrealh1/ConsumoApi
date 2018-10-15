@@ -15,14 +15,28 @@
                             <ViewCell.View>
                             <StackLayout>
                                 <Label 
-                                    Text="{Binding FechaPublicacion}">
+                                    Text="{Binding Id}">
                                 </Label>
                                 <Label 
-                                    Text="{Binding MeGusta}">
+                                    Text="{Binding Usuario}">
                                 </Label>
-                                                               
                                 <Label 
-                                    Text="{Binding MeGusta}">
+                                    Text="{Binding Descripcion}">
+                                </Label>
+                                <Label 
+                                Text="{Binding FechaPublicacion}">
+                                </Label>
+                                <Label 
+                                Text="{Binding MeGusta}">
+                                </Label>
+                                <Label 
+                                Text="{Binding MeDisgusta}">
+                                </Label>
+                                <Label 
+                                Text="{Binding VecesCompartido}">
+                                </Label>
+                                <Label 
+                                Text="{Binding EsPrivada}">
                                 </Label>
                                 </StackLayout>
 

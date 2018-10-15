@@ -27,7 +27,7 @@ namespace TallerApis.Xamarin
             var request = await client.GetAsync("/PublicacionApis/api/publicacion");
             if (request.IsSuccessStatusCode)
             {
-                var responseJson = request.Content.ReadAsStringAsync().Result;
+                var responseJson = await request.Content.ReadAsStringAsync();
                 var response = JsonConvert.DeserializeObject<List<Publicacion>>(responseJson);
                 listPublicaciones.ItemsSource = response;
              
