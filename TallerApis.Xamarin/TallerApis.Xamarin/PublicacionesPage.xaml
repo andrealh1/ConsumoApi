@@ -54,9 +54,7 @@
 
                                 <Label Text="Es Privada:" Grid.Column="0" Grid.Row="7"></Label>
                                 <Label  Grid.Column="1" Grid.Row="7" Text="{Binding EsPrivada}"></Label>
-                                
-                            </Grid>
-
+                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
