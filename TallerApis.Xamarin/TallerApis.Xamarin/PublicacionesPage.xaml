@@ -15,10 +15,10 @@
                             <ViewCell.View>
                             <StackLayout>
                                 <Label 
-                                    Text="{Binding Usuario}">
+                                    Text="{Binding FechaPublicacion}">
                                 </Label>
                                 <Label 
-                                    Text="{Binding Descripcion}">
+                                    Text="{Binding MeGusta}">
                                 </Label>
                                                                
                                 <Label 
