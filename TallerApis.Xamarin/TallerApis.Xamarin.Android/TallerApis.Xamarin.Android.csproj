@@ -91,10 +91,6 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TallerApis.Apis\TallerApis.Apis.csproj">
-      <Project>{ad33a24d-98b0-4b79-a676-14a56d70aca1}</Project>
-      <Name>TallerApis.Apis</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TallerApis.Xamarin\TallerApis.Xamarin.csproj">
       <Project>{017920BC-FAB4-4CB3-A42D-2022AFF19043}</Project>
       <Name>TallerApis.Xamarin</Name>
