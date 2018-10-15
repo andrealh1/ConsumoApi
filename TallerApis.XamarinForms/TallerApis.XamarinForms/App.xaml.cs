@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
-namespace TallerApis.Xamarin
+namespace TallerApis.XamarinForms
 {
 	public partial class App : Application
 	{
@@ -11,7 +11,7 @@ namespace TallerApis.Xamarin
 		{
 			InitializeComponent();
 
-			MainPage = new PublicacionesPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()
