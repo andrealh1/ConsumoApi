@@ -11,12 +11,16 @@
             <ListView x:Name="listPublicaciones">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell
-                               Text="{Binding Usuario}"
-                               Detail="{Binding Descripcion}"
-                                                           
-                               TextColor="Black"
-                               DetailColor="Gray"/>
+                        <StackLayout>
+                            <Label Text="{Binding Id}"/>
+                            <Label Text="{Binding Usuario}"/>
+                            <Label Text="{Binding Descripcion}"/>
+                            <Label Text="{Binding FechaPublicacion}"/>
+                            <Label Text="{Binding MeGusta}"/>
+                            <Label Text="{Binding MeDisgusta}"/>
+                            <Label Text="{Binding VecesCompartido}"/>
+                            <Label Text="{Binding EsPrivada}"/>
+                         </StackLayout>
 
                     </DataTemplate>
 
