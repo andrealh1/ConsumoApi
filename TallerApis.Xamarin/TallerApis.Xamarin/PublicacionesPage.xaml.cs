@@ -31,7 +31,7 @@ namespace TallerApis.Xamarin
                 var response = JsonConvert.DeserializeObject<List<Publicacion>>(responseJson);
                 listPublicaciones.ItemsSource = response;
              
-
+                
             }
         }
 
